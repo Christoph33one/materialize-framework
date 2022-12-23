@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
-    let sidenav= document.querySelectorAll('.sidenav');
-    M.Sidenav.init(sidenav);
-
+document.addEventListener("DOMContentLoaded", function() {
+  // sidenav initialization
+  let sidenav = document.querySelectorAll(".sidenav");
+  M.Sidenav.init(sidenav);
 
   // datepicker initialization
   let datepicker = document.querySelectorAll(".datepicker");
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
       i18n: {done: "Select"}
   });
 
-  /// select initialization
+  // select initialization
   let selects = document.querySelectorAll("select");
   M.FormSelect.init(selects);
 
